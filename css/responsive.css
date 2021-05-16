@@ -1,0 +1,108 @@
+@media (max-width:768px){
+    
+  .header .fa-bars{
+    display: block;
+    color: rgba(0, 0, 255, 0.767);
+}
+.header .navbar{
+    width: 100vw;
+    background: #fff;
+    top: -120%;
+    left: 0;
+    z-index: 1000;
+    position: fixed;
+    height: calc(100vh - 5rem);
+}
+.header .navbar ul{
+    height: 100%;
+    flex-flow: column;
+width: 100%;
+    justify-content: center;
+}
+.header .navbar ul li{
+    margin: 2rem 0;
+}
+.header .navbar ul li a{
+    font-size: 3rem;
+}
+.header .fa-times{
+    transform: rotate(180deg);
+}
+.header .nav-toggle{
+    top: 5.8rem;
+}
+.home .banner{
+    font-size: 4rem;
+}
+.home .slogan{
+    font-size: 1.7rem;
+}
+.about-img,
+.about-text{
+    width: 100%;
+}
+
+.about-img{
+    margin-top: 40px;
+}
+.services .row{
+    flex-flow: column-reverse;
+}
+.services .row:nth-child(even){
+    flex-flow: column;
+}
+.services .row .image img{
+    width: 100vw;
+}
+.services .row .content{
+    padding: 0;
+    text-align: center;
+}
+.wrapper{
+    width: 100%;
+}
+.contact .row{
+    flex-flow: column;
+}
+.contact .row .image img{
+    width: 100vw;
+}
+.contact .row .form-container{
+    width: 100%;
+    padding: 0 1.5rem;
+}
+.footer-item{
+    width: 100%;
+}
+.footer-item:not(){
+    margin-bottom: 30px;
+}
+
+}
+
+@media (max-width:500px){
+#services .box-container .box{
+    flex-flow: column;
+    padding: 1.5rem;
+    }
+#services .box-container .info{
+        padding-left: 0;
+        padding-top: 3rem;
+        border: none;
+        text-align: center;
+            }
+#services .box-container .info p{
+                padding-left: 1rem;
+              
+                    }
+}
+@media only screen and(min-width:500px) and (max-width:768px){
+    .wrapper{
+        width: 100%;
+    }
+    
+   
+}
+
+    
+
